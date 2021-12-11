@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: OpenWrt-ZY
+name: OpenWrt-dw33d
 
 on:
   repository_dispatch:
@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/openwrt
   REPO_BRANCH: lede-17.01
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: domywifi-dw33d.config
+  CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
